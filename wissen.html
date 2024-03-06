@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <title>Natur hautnah</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/modifications/wissen.css" />
+    <script src="./js/bootstrap/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+    <div id="backgroundindex">
+
+        <header>
+            <div class="container text-center py-2">
+                <img src="./assets/pictures/index/hslogo.png" class="img-fluid hslogo" alt="Hochschule Osnabrück Logo">
+            </div>
+        </header>
+
+
+        <!-- Quelle: https://www.w3schools.com/bootstrap5/bootstrap_navbar.php -->
+        <nav class="navbar navbarimg mt-3 mb-3 pb-5">
+            <div class="container-fluid justify-content-center m-auto navbar-expand-lg">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/pictures/index/navsymbol.png" alt="navbarimage"
+                        class="d-inline-block navbarimage">
+                    <p class="navsymboltext text-success fw-bold">Natur hautnah</p>
+                </a>
+                <ul class="nav justify-content-center ">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link link-success active text-dark fw-bold fs-6 text startseite"
+                            aria-current="page">Startseite</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="reisen.html"
+                            class="nav-link link-success active text-dark fw-bold fs-6 text naturerleben"
+                            aria-current="page">Natur erleben</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="wissen.html" class="nav-link link-success active text-success fw-bold fs-6 text wissen"
+                            aria-current="page">Wissen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="neuigkeiten.html"
+                            class="nav-link link-success active text-dark fw-bold fs-6 text neuigkeiten"
+                            aria-current="page">Neuigkeiten</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <!--
+                Quelle: https://www.w3schools.com/bootstrap5/bootstrap_collapse.php 
+
+                Quelle: https://www.w3schools.com/bootstrap5/bootstrap_cards.php
+            -->
+        <article>
+            <div class="m-auto">
+                <div class="row m-auto">
+
+                    <div id="accordion" class="m-auto mb-5 mt-5">
+
+                        <!--
+                        Landwirbeltiere card
+                    -->
+                        <div class="card mb-5 m-auto">
+                            <div class="card-header cardheadernaturesearch rounded text-center">
+                                <a class="collapsed btn w-100 border-0 text-white" data-bs-toggle="collapse"
+                                    href="#collapseOne">
+                                    Alles über Landwirbeltiere
+                                </a>
+                                <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
+                                    <div class="card-body">
+                                        <div class="container">
+
+                                            <div class="row">
+                                                <div class="col-md mb-4">
+                                                    <div class="card bg-success">
+                                                        <picture>
+                                                            <img class="rounded img-fluid img-card-top"
+                                                                src="./assets/pictures/wissen/hippo.jpg" alt="Nilpferd">
+                                                        </picture>
+                                                        <div class="card-text">
+                                                            <h5 class="card-title fw-bold">Das Nilpferd</h5>
+                                                            <p class="card-text m-2 mb-4 text-truncate">
+                                                                <br>Das Nilpferd gehört zu den größten lebenden
+                                                                Landsäugetieren.
+                                                                <br>Die Tiere leben in Rudeln mit durchschnittlich 10
+                                                                Tieren, obwohl in Naturschutzgebieten auch Gruppen von
+                                                                über
+                                                                100 Tieren keine große Seltenheit sind. Die Rudel
+                                                                bestehen
+                                                                überwiegend aus Weibchen und Jungen beiderlei
+                                                                Geschlechts
+                                                                sowie einigen ausgewachsenen Bullen.
+                                                                <br>Nilpferde sind reine Pflanzenfresser. Sie ernähren
+                                                                sich
+                                                                überwiegend von Gras, auch Sumpf- und Wasserpflanzen
+                                                                stehen
+                                                                auf ihren Speiseplan. Auf Nahrungssuche gehen die Tiere
+                                                                nur
+                                                                am späten Abend oder Nachts, wobei sie häufig große
+                                                                Strecken
+                                                                zurücklegen, bis sie ein geeignetes Weidegebiet gefunden
+                                                                haben.
+                                                            </p>
+                                                            <button class="btn btn-danger mb-3" type="button"
+                                                                data-bs-toggle="offcanvas" data-bs-target="#nilpferd">
+                                                                Lesen
+                                                            </button>
+                                                            <div>
+                                                                <picture>
+                                                                    <img src="./assets/pictures/bedrohtearten/navizeiger.png"
+                                                                        alt="zuruckaufdiestartseite" width="100">
+                                                                </picture>
+                                                            </div>
+                                                            <button class="btn btn-danger mb-3" type="button">
+                                                                Zum Video!
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <!--offcanvas-->
+                                                    <div class="offcanvas offcanvas-bottom canvasbodynilpferd"
+                                                        tabindex="-1" id="nilpferd" aria-labelledby="#nilpferd">
+                                                        <div class="offcanvas-header canvasbody text-center">
+                                                            <h5 class="offcanvas-title fw-bold" id="#nilpferd">
+                                                                Das Nilpferd</h5>
+                                                            <button type="button" class="btn-close text-reset"
+                                                                data-bs-dismiss="offcanvas" aria-label="Close">
+                                                            </button>
+                                                        </div>
+                                                        <div class="offcanvas-body small text-white fs-5">
+                                                            <p>
+                                                                <br>Das Nilpferd gehört zu den größten lebenden
+                                                                Landsäugetieren.
+                                                                <br>Die Tiere leben in Rudeln mit durchschnittlich 10
+                                                                Tieren, obwohl in Naturschutzgebieten auch Gruppen von
+                                                                über
+                                                                100 Tieren keine große Seltenheit sind.
+                                                                <br>Die Rudel bestehen
+                                                                überwiegend aus Weibchen und Jungen beiderlei
+                                                                Geschlechts
+                                                                sowie einigen ausgewachsenen Bullen.
+                                                                <br>Nilpferde sind reine Pflanzenfresser. Sie ernähren
+                                                                sich
+                                                                überwiegend von Gras, auch Sumpf- und Wasserpflanzen
+                                                                stehen
+                                                                auf ihren Speiseplan.
+                                                                <br>Auf Nahrungssuche gehen die Tiere nur
+                                                                am späten Abend oder Nachts, wobei sie häufig große
+                                                                Strecken
+                                                                zurücklegen, bis sie ein geeignetes Weidegebiet gefunden
+                                                                haben.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+
+                                                <div class="col-md mb-4">
+                                                    <div class="card bg-success">
+                                                        <picture>
+                                                            <img class="rounded img-fluid img-card-top"
+                                                                src="assets/pictures/wissen/icebears.jpg"
+                                                                alt="Eisbären">
+                                                        </picture>
+                                                        <div class="card-text">
+                                                            <h5 class="card-title fw-bold">Der Eisbär</h5>
+                                                            <p class="card-text m-2 mb-4 text-truncate">
+                                                                <br>Eisbären, das größte Raubtier der Arktis,
+                                                                <br>sind ein starkes Symbol für die Stärke und Ausdauer
+                                                                der
+                                                                Arktis.
+                                                                <br>Der Lebensraum der Eisbären zwischen Pack- und
+                                                                Treibeis
+                                                                erfordert extreme Anpassungen
+                                                                <br>an die dort herrschende Witterung.
+                                                                Bei Temperaturen von bis zu minus 70 Grad Celsius und
+                                                                Stürmen mit über 200 Stundenkilometern
+                                                                Windgeschwindigkeit
+                                                                <br>ist überleben nicht einfach. So wärmt der
+                                                                wasserdichte,
+                                                                weiche Pelz die Tiere nicht nur einfach, das Haarkleid
+                                                                produziert aktiv Wärme.
+                                                            </p>
+                                                            <button class="btn btn-danger mb-3" type="button"
+                                                                data-bs-toggle="offcanvas" data-bs-target="#eisbaer">
+                                                                Lesen
+                                                            </button>
+                                                            <div>
+                                                                <picture>
+                                                                    <img src="./assets/pictures/bedrohtearten/navizeiger.png"
+                                                                        alt="zuruckaufdiestartseite" width="100">
+                                                                </picture>
+                                                            </div>
+                                                            <button class="btn btn-danger mb-3" type="button">
+                                                                Zum Video!
+                                                            </button>
+                                                        </div>
+                                                    </div>
+
+                                                    <!--offcanvas-->
+                                                    <div class="offcanvas offcanvas-bottom canvasbodyeisbaer"
+                                                        tabindex="-1" id="eisbaer" aria-labelledby="#eisbaer">
+                                                        <div class="offcanvas-header canvasbody text-center">
+                                                            <h5 class="offcanvas-title fw-bold" id="#eisbaer">Der
+                                                                Eisbär</h5>
+                                                            <button type="button" class="btn-close text-reset"
+                                                                data-bs-dismiss="offcanvas" aria-label="Close">
+                                                            </button>
+                                                        </div>
+                                                        <div class="offcanvas-body small text-white fs-5">
+                                                            <p>
+                                                                <br>Eisbären, das größte Raubtier der Arktis,
+                                                                <br>sind ein starkes Symbol für die Stärke und Ausdauer
+                                                                der
+                                                                Arktis.
+                                                                <br>Der Lebensraum der Eisbären zwischen Pack- und
+                                                                Treibeis
+                                                                erfordert extreme Anpassungen
+                                                                <br>an die dort herrschende Witterung.
+                                                                <br>Bei Temperaturen von bis zu minus 70 Grad Celsius
+                                                                und
+                                                                Stürmen mit über 200 Stundenkilometern
+                                                                Windgeschwindigkeit
+                                                                <br>ist überleben nicht einfach. So wärmt der
+                                                                wasserdichte,
+                                                                weiche Pelz die Tiere nicht nur einfach, das Haarkleid
+                                                                produziert aktiv Wärme.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+
+
+
+
+                                                <div class="col-md mb-4">
+                                                    <div class="card bg-success">
+                                                        <picture>
+                                                            <img class="rounded img-fluid img-card-top w-100"
+                                                                src="assets/pictures/wissen/elefant.jpg" alt="elefant">
+                                                        </picture>
+                                                        <div class="card-text">
+                                                            <h5 class="card-title fw-bold">Der Elefant</h5>
+                                                            <p class="card-text m-2 mb-4 text-truncate">
+                                                                Der afrikanische Elefant ist das schwerste Landsäugetier
+                                                                überhaupt.
+                                                                Sie leben in einem Familienverband, der von einer alten
+                                                                Kuh
+                                                                angeführt wird.
+                                                                <br>Ihr Rüssel wird zur Kommunikation und zur
+                                                                Verarbeitung
+                                                                von Gegenständen genutzt.
+                                                                Ihre großen Ohren helfen ihnen, die Wärme abzuleiten.
+                                                                Die oberen Schneidezähne der afrikanischen Elefanten
+                                                                reifen
+                                                                im Laufe ihres Lebens zu Stoßzähnen heran.
+                                                                Afrikanische Elefanten werden in Savannenelefanten (oder
+                                                                Buschelefanten) und Waldelefanten unterteilt.
+                                                                <br>Savannenelefanten haben größere Stoßzähne und sind
+                                                                größer als Waldelefanten.
+                                                                Waldelefanten sind kleiner, dunkler und haben geradere,
+                                                                nach
+                                                                unten gerichtete Stoßzähne.
+                                                                Der Schädel und das Skelett der beiden Arten
+                                                                unterscheiden
+                                                                sich in Größe und Form.
+
+                                                            </p>
+                                                            <button class="btn btn-danger mb-3" type="button"
+                                                                data-bs-toggle="offcanvas" data-bs-target="#elefant">
+                                                                Lesen
+                                                            </button>
+                                                            <div>
+                                                                <picture>
+                                                                    <img src="./assets/pictures/bedrohtearten/navizeiger.png"
+                                                                        alt="zuruckaufdiestartseite" width="100">
+                                                                </picture>
+                                                            </div>
+                                                            <button class="btn btn-danger mb-3" type="button">
+                                                                Zum Video!
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--offcanvas-->
+                                                <div class="offcanvas offcanvas-bottom canvasbodyelefant" tabindex="-1"
+                                                    id="elefant" aria-labelledby="#elefant">
+                                                    <div class="offcanvas-header canvasbody text-center">
+                                                        <h5 class="offcanvas-title fw-bold" id="#elefant">Der
+                                                            Elefant</h5>
+                                                        <button type="button" class="btn-close text-reset"
+                                                            data-bs-dismiss="offcanvas" aria-label="Close">
+                                                        </button>
+                                                    </div>
+                                                    <div class="offcanvas-body small text-white fs-5">
+                                                        <p>
+                                                            <br>Der afrikanische Elefant ist das schwerste Landsäugetier
+                                                            <br>überhaupt.
+                                                            <br>Sie leben in einem Familienverband, der von einer alten
+                                                            Kuh
+                                                            <br>angeführt wird.
+                                                            <br>Ihr Rüssel wird zur Kommunikation und zur Verarbeitung
+                                                            von
+                                                            <br>Gegenständen genutzt.
+                                                            <br>Ihre großen Ohren helfen ihnen, die Wärme abzuleiten.
+                                                            <br>Die oberen Schneidezähne der afrikanischen Elefanten
+                                                            reifen
+                                                            im Laufe ihres Lebens zu Stoßzähnen heran.
+                                                            <br>Afrikanische Elefanten werden in Savannenelefanten (oder
+                                                            Buschelefanten) und Waldelefanten unterteilt.
+                                                            <br>Savannenelefanten haben größere Stoßzähne und sind
+                                                            größer
+                                                            als Waldelefanten.
+                                                            <br>Waldelefanten sind kleiner, dunkler und haben geradere,
+                                                            nach
+                                                            unten gerichtete Stoßzähne.
+                                                            <br>Der Schädel und das Skelett der beiden Arten
+                                                            unterscheiden
+                                                            sich in Größe und Form.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-md mb-4">
+                                                    <div class="card bg-success">
+                                                        <picture>
+                                                            <img class="rounded img-fluid img-card-top w-100"
+                                                                src="assets/pictures/wissen/eichhoernchennuss.jpg"
+                                                                alt="eichhoernchennuss">
+                                                        </picture>
+                                                        <div class="card-text">
+                                                            <h5 class="card-title fw-bold">Das
+                                                                Eichhörnchen</h5>
+                                                            <p class="card-text m-2 mb-4 text-truncate">
+                                                                Das Eichhörnchen ist eines der bekanntesten Nagetiere
+                                                                <br>unserer Heimat. In den Parks vieler Städte sind die
+                                                                <br>anmutigen Tiere oft so zutraulich geworden, dass man
+                                                                hier
+                                                                <br><br>von einem echten Kulturfolger sprechen kann.
+
+                                                                <br>Als echtes Baumtier verbringt das Eichhörnchen fast
+                                                                sein
+                                                                ganzes Leben in luftiger Höhe. Sie beginnen mit ihren
+                                                                Aktivitäten in der Zeit um Sonnenaufgang. Am regsamsten
+                                                                sind
+                                                                die Tiere am frühen Morgen und am späten Nachmittag, bei
+                                                                guten Wetterbedingungen auch am Mittag. Ende Herbst
+                                                                nimmt
+                                                                ihre Aktivität langsam wieder ab, und im Winter
+                                                                verlassen
+                                                                sie nur noch gegen Mittag ihren Kobel. Einen richtigen
+                                                                Winterschlaf halten die quirligen Tiere aber nicht.
+                                                            </p>
+                                                            <button class="btn btn-danger mb-3" type="button"
+                                                                data-bs-toggle="offcanvas"
+                                                                data-bs-target="#eichhoernchen">
+                                                                Lesen
+                                                            </button>
+                                                            <div>
+                                                                <picture>
+                                                                    <img src="./assets/pictures/bedrohtearten/navizeiger.png"
+                                                                        alt="zuruckaufdiestartseite" width="100">
+                                                                </picture>
+                                                            </div>
+                                                            <button class="btn btn-danger mb-3" type="button">
+                                                                Zum Video!
+                                                            </button>
+                                                        </div>
+                                                    </div>
+
+                                                    <!--offcanvas-->
+                                                    <div class="offcanvas offcanvas-bottom canvasbodyeichhoernchen"
+                                                        tabindex="-1" id="eichhoernchen"
+                                                        aria-labelledby="#eichhoernchen">
+                                                        <div class="offcanvas-header canvasbody text-center">
+                                                            <h5 class="offcanvas-title fw-bold" id="#eichhoernchen">Das
+                                                                Eichhörnchen</h5>
+                                                            <button type="button" class="btn-close text-reset"
+                                                                data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="offcanvas-body small text-white fs-5">
+                                                            <p>
+                                                                Das Eichhörnchen ist eines der bekanntesten Nagetiere
+                                                                <br>unserer Heimat. In den Parks vieler Städte sind die
+                                                                <br>anmutigen Tiere oft so zutraulich geworden, dass man
+                                                                hier
+                                                                <br><br>von einem echten Kulturfolger sprechen kann.
+
+                                                                <br>Als echtes Baumtier verbringt das Eichhörnchen fast
+                                                                sein
+                                                                <br>ganzes Leben in luftiger Höhe. Sie beginnen mit
+                                                                ihren
+                                                                <br>Aktivitäten in der Zeit um Sonnenaufgang. Am
+                                                                regsamsten
+                                                                sind
+                                                                <br>die Tiere am frühen Morgen und am späten Nachmittag,
+                                                                bei
+                                                                <br>guten Wetterbedingungen auch am Mittag. Ende Herbst
+                                                                nimmt
+                                                                <br>ihre Aktivität langsam wieder ab, und im Winter
+                                                                verlassen
+                                                                <br>sie nur noch gegen Mittag ihren Kobel. Einen
+                                                                richtigen
+                                                                <br>Winterschlaf halten die quirligen Tiere aber nicht.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+
+
+                                                <div class="col-md">
+                                                    <div class="card bg-success">
+                                                        <picture>
+                                                            <img class="rounded img-fluid img-card-top w-100"
+                                                                src="assets/pictures/wissen/Nashorn.jpg" alt="nashorn2">
+                                                        </picture>
+                                                        <div class="card-text">
+                                                            <h5 class="card-title fw-bold">Das Nashorn</h5>
+                                                            <p class="card-text m-2 mb-4 text-truncate">
+                                                                Das Breitmaulnashornmännchen ist nach dem Elefanten das
+                                                                zweitgrößte Landsäugetier.
+                                                                <br>Breitmaulnashörner sind weit weniger aggressiv als
+                                                                ihre
+                                                                nahen Verwandten, die Spitzmaulnashörner.
+                                                                <br>Die Männchen sind in der Regel Einzelgänger, während
+                                                                die
+                                                                Weibchen in Gruppen zusammen mit ihren Jungen leben.
+                                                                Die Tiere leben praktisch ausschließlich von Gras,
+                                                                welches
+                                                                sie mit ihren breiten, quadratischen Lippen abpflücken.
+                                                                Wie die meisten Nashornarten kann das Breitmaulnashorn
+                                                                nur
+                                                                schlecht sehen, hat aber ein gutes Gehör.
+                                                                Es sind halbsoziale, territoriale Säugetiere.
+                                                            </p>
+                                                            <button class="btn btn-danger mb-3" type="button"
+                                                                data-bs-toggle="offcanvas" data-bs-target="#nashorn2">
+                                                                Lesen
+                                                            </button>
+                                                            <div>
+                                                                <picture>
+                                                                    <img src="./assets/pictures/bedrohtearten/navizeiger.png"
+                                                                        alt="zuruckaufdiestartseite" width="100">
+                                                                </picture>
+                                                            </div>
+                                                            <button class="btn btn-danger mb-3" type="button">
+                                                                Zum Video!
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--offcanvas-->
+                                            <div class="offcanvas offcanvas-bottom canvasbodynashorn2" tabindex="-1"
+                                                id="nashorn2" aria-labelledby="#nashorn2">
+                                                <div class="offcanvas-header canvasbody text-center">
+                                                    <h5 class="offcanvas-title fw-bold" id="#nashorn2">Das Nashorn
+                                                    </h5>
+                                                    <button type="button" class="btn-close text-reset"
+                                                        data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                                </div>
+                                                <div class="offcanvas-body small text-white fs-5">
+                                                    <p>
+                                                        Das Breitmaulnashornmännchen ist nach dem Elefanten das
+                                                        zweitgrößte
+                                                        Landsäugetier.
+                                                        <br>Breitmaulnashörner sind weit weniger aggressiv als ihre
+                                                        nahen
+                                                        Verwandten, die Spitzmaulnashörner.
+                                                        <br>Die Männchen sind in der Regel Einzelgänger, während die
+                                                        Weibchen in Gruppen zusammen mit ihren Jungen leben.
+                                                        <br>Die Tiere leben praktisch ausschließlich von Gras, welches
+                                                        sie
+                                                        mit ihren breiten, quadratischen Lippen abpflücken.
+                                                        <br>Wie die meisten Nashornarten kann das Breitmaulnashorn nur
+                                                        schlecht sehen, hat aber ein gutes Gehör.
+                                                        <br>Es sind halbsoziale, territoriale Säugetiere.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--
+                        Meeressäuger card 
+                    -->
+                        <div class="card mb-5">
+                            <div class="card-header cardheaderocean rounded text-center">
+                                <a class="collapsed btn w-100 border-0 text-white" data-bs-toggle="collapse"
+                                    href="#collapseTwo">
+                                    Alles über Meeressäuger
+                                </a>
+                                <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                                    <div class="card-body">
+                                        <div class="container">
+
+                                            <div class="row">
+                                                <div class="col-md mb-4">
+                                                    <div class="card bg-primary">
+                                                        <picture>
+                                                            <img class="rounded img-fluid img-card-top"
+                                                                src="assets/pictures/wissen/schildkroete.jpg"
+                                                                alt="schildkroete">
+                                                        </picture>
+                                                        <div class="card-text">
+                                                            <h5 class="card-title fw-bold">Die Wasserschildkröte</h5>
+                                                            <p class="card-text m-2 mb-4 text-truncate">
+                                                                Die Suppenschildkröte ist nach der Lederschildkröte die
+                                                                <br>zweitgrößte Meeresschildkröte der Welt. Dabei
+                                                                unterscheidet
+                                                                <br>sich die Suppenschildkröte in ihrer Ernährung
+                                                                bereits
+                                                                ganz
+                                                                <br>erheblich von ihren Verwandten. Während alle anderen
+                                                                <br>Meeresschildkröten „Raubtiere“ sind und von Fischen,
+                                                                <br>Schnecken, Krabben etc. leben, ist die erwachsene
+                                                                Suppenschildkröte eine reine Vegetarierin. Sie ernährt
+                                                                sich
+                                                                hauptsächlich von Seegras und in kleinerem Umfang auch
+                                                                von
+                                                                Meeresalgen. Ihre Lieblingsspeise wird sogar treffend
+                                                                Schildkrötengras genannt. Diese Seegrasart bilden in
+                                                                tropischen Gewässern ausgedehnte unterseeische „Wiesen“,
+                                                                welche neben den Suppenschildkröten auch von den
+                                                                Seekühen
+                                                                gerne beweidet werden.
+                                                            </p>
+                                                            <button class="btn btn-danger mb-3" type="button"
+                                                                data-bs-toggle="offcanvas"
+                                                                data-bs-target="#schildkroete2">
+                                                                Lesen
+                                                            </button>
+                                                            <div>
+                                                                <picture>
+                                                                    <img src="./assets/pictures/bedrohtearten/navizeiger.png"
+                                                                        alt="zuruckaufdiestartseite" width="100">
+                                                                </picture>
+                                                            </div>
+                                                            <button class="btn btn-danger mb-3" type="button">
+                                                                Zum Video!
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <!--offcanvas-->
+                                                    <div class="offcanvas offcanvas-bottom canvasbodyschildkroete2"
+                                                        tabindex="-1" id="schildkroete2"
+                                                        aria-labelledby="#schildkroete2">
+                                                        <div class="offcanvas-header canvasbody text-center">
+                                                            <h5 class="offcanvas-title fw-bold" id="#schildkroete2">
+                                                                Die Wasserschildkröte
+                                                            </h5>
+                                                            <button type="button" class="btn-close text-reset"
+                                                                data-bs-dismiss="offcanvas" aria-label="Close">
+                                                            </button>
+                                                        </div>
+                                                        <div class="offcanvas-body small text-white fs-5">
+                                                            <p>
+                                                                Die Suppenschildkröte ist nach der Lederschildkröte die
+                                                                <br>zweitgrößte Meeresschildkröte der Welt. Dabei
+                                                                unterscheidet
+                                                                <br>sich die Suppenschildkröte in ihrer Ernährung
+                                                                bereits
+                                                                ganz
+                                                                <br>erheblich von ihren Verwandten. Während alle anderen
+                                                                <br>Meeresschildkröten „Raubtiere“ sind und von Fischen,
+                                                                <br>Schnecken, Krabben etc. leben, ist die erwachsene
+                                                                <br>Suppenschildkröte eine reine Vegetarierin. Sie
+                                                                ernährt
+                                                                sich
+                                                                <br>hauptsächlich von Seegras und in kleinerem Umfang
+                                                                auch
+                                                                von
+                                                                <br>Meeresalgen. Ihre Lieblingsspeise wird sogar
+                                                                treffend
+                                                                <br>Schildkrötengras genannt. Diese Seegrasart bilden in
+                                                                <br>tropischen Gewässern ausgedehnte unterseeische
+                                                                „Wiesen“,
+                                                                <br>welche neben den Suppenschildkröten auch von den
+                                                                Seekühen
+                                                                <br>gerne beweidet werden.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md">
+                                                    <div class="card bg-primary">
+                                                        <picture>
+                                                            <img class="rounded img-fluid img-card-top"
+                                                                src="assets/pictures/wissen/delfin.jpg" alt="delfin">
+                                                        </picture>
+                                                        <div class="card-text">
+                                                            <h5 class="card-title fw-bold">Der Delfin</h5>
+                                                            <p class="card-text m-2 mb-4 text-truncate">
+                                                                <br>Delphine gehören aus zoologischer Sicht zu den
+                                                                Zahnwalen.
+                                                                <br>Wie alle Walarten atmen Delphine Luft und müssen
+                                                                daher
+                                                                in
+                                                                <br>regelmäßigen Abständen an die Wasseroberfläche
+                                                                kommen.
+                                                                <br>Delphine ernähren sich in der Regel von Heringen und
+                                                                <br>Sardinen, verschmähen aber auch Garnelen und
+                                                                Tintenfische
+                                                                nicht. Die Tiere ziehen weite Strecken durch die Meere,
+                                                                um
+                                                                Ihrer Nahrung zu folgen. Zur Ortung Ihrer Nahrung senden
+                                                                Delphine Ultraschallaute aus. Diese Töne werden von
+                                                                festen
+                                                                Objekten reflektiert. Delphine sind in der Lage, sich
+                                                                aus
+                                                                diesen Reflektionen ein Bild Ihrer Umgebung zu machen
+                                                                und so
+                                                                auch Ihre Beute zu erkennen.
+                                                            </p>
+                                                            <button class="btn btn-danger mb-3" type="button"
+                                                                data-bs-toggle="offcanvas" data-bs-target="#delfin">
+                                                                Lesen
+                                                            </button>
+                                                            <div>
+                                                                <picture>
+                                                                    <img src="./assets/pictures/bedrohtearten/navizeiger.png"
+                                                                        alt="zuruckaufdiestartseite" width="100">
+                                                                </picture>
+                                                            </div>
+                                                            <button class="btn btn-danger mb-3" type="button">
+                                                                Zum Video!
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <!--offcanvas-->
+                                                    <div class="offcanvas offcanvas-bottom canvasbodydelfin"
+                                                        tabindex="-1" id="delfin" aria-labelledby="#delfin">
+                                                        <div class="offcanvas-header canvasbody text-center">
+                                                            <h5 class="offcanvas-title fw-bold" id="#delfin">
+                                                                Der Delfin
+                                                            </h5>
+                                                            <button type="button" class="btn-close text-reset"
+                                                                data-bs-dismiss="offcanvas" aria-label="Close">
+                                                            </button>
+                                                        </div>
+                                                        <div class="offcanvas-body small text-white fs-5">
+                                                            <p>
+                                                                <br>Delphine gehören aus zoologischer Sicht zu den
+                                                                Zahnwalen.
+                                                                <br>Wie alle Walarten atmen Delphine Luft und müssen
+                                                                daher
+                                                                in
+                                                                <br>regelmäßigen Abständen an die Wasseroberfläche
+                                                                kommen.
+                                                                <br>Delphine ernähren sich in der Regel von Heringen und
+                                                                <br>Sardinen, verschmähen aber auch Garnelen und
+                                                                Tintenfische
+                                                                <br>nicht. Die Tiere ziehen weite Strecken durch die
+                                                                Meere,
+                                                                um
+                                                                <br>Ihrer Nahrung zu folgen. Zur Ortung Ihrer Nahrung
+                                                                senden
+                                                                <br>Delphine Ultraschallaute aus. Diese Töne werden von
+                                                                festen
+                                                                <br>Objekten reflektiert. Delphine sind in der Lage,
+                                                                sich
+                                                                aus
+                                                                <br>diesen Reflektionen ein Bild Ihrer Umgebung zu
+                                                                machen
+                                                                und so
+                                                                auch Ihre Beute zu erkennen.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <!--
+                        Insekten card 
+                    -->
+                        <div class="card mb-5">
+                            <div class="card-header cardheaderinsects rounded text-center bg-success">
+                                <a class="collapsed btn w-100 border-0 text-white" data-bs-toggle="collapse"
+                                    href="#collapseThree">
+                                    Alles über Insekten
+                                </a>
+                                <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                                    <div class="card-body">
+                                        <div class="container">
+
+                                            <div class="row">
+                                                <div class="col-md mb-4">
+                                                    <div class="card bg-success">
+                                                        <picture>
+                                                            <img class="rounded img-fluid img-card-top"
+                                                                src="assets/pictures/wissen/schmetterling.jpg"
+                                                                alt="schmetterling">
+                                                        </picture>
+                                                        <div class="card-text">
+                                                            <h5 class="card-title fw-bold">Der Monarchfalter</h5>
+                                                            <p class="card-text m-2 mb-4 text-truncate">
+                                                                Der Monarchfalter (Danaus plexippus) oder Amerikanische
+                                                                <br>Monarch ist ein auffällig orange und schwarz
+                                                                gezeichneter
+                                                                <br>Schmetterling (Tagfalter) aus der Familie der
+                                                                Edelfalter
+                                                                (Nymphalidae).
+
+                                                                <br>In den Jahren ab etwa 2010 brachen die
+                                                                überwinternden
+                                                                Bestände drastisch ein, die in Anspruch genommene Fläche
+                                                                betrug ebenfalls nur noch einen Bruchteil; 2013/14
+                                                                verzögerte sich die Ankunft der Falter in Mexiko zudem
+                                                                um
+                                                                drei Wochen.
+
+                                                                Eine deutlich kleinere westliche Population überwintert
+                                                                entlang der Pazifikküste in Kalifornien.
+
+                                                                Im Jahr 2022 wurde die wandernde Unterart (Danaus
+                                                                plexippus
+                                                                plexippus) des Monarchfalters als „stark gefährdet“
+                                                                (endangered) in die <a href="bedrohtearten.html"
+                                                                    class="link link-info">Rote Liste</a> gefährdeter
+                                                                Arten
+                                                                aufgenommen.
+
+
+
+                                                            </p>
+                                                            <button class="btn btn-danger mb-3" type="button"
+                                                                data-bs-toggle="offcanvas"
+                                                                data-bs-target="#schmetterling">
+                                                                Lesen
+                                                            </button>
+                                                            <div>
+                                                                <picture>
+                                                                    <img src="./assets/pictures/bedrohtearten/navizeiger.png"
+                                                                        alt="zuruckaufdiestartseite" width="100">
+                                                                </picture>
+                                                            </div>
+                                                            <button class="btn btn-danger mb-3" type="button">
+                                                                Zum Video!
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <!--offcanvas-->
+                                                    <div class="offcanvas offcanvas-bottom canvasbodyschmetterling"
+                                                        tabindex="-1" id="schmetterling"
+                                                        aria-labelledby="#schmetterling">
+                                                        <div class="offcanvas-header canvasbody text-center">
+                                                            <h5 class="offcanvas-title fw-bold" id="#schmetterling">Der
+                                                                Monarchfalter
+                                                            </h5>
+                                                            <button type="button" class="btn-close text-reset"
+                                                                data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="offcanvas-body small text-white fs-5">
+                                                            <p>
+                                                                Der Monarchfalter (Danaus plexippus) oder Amerikanische
+                                                                <br>Monarch ist ein auffällig orange und schwarz
+                                                                gezeichneter
+                                                                <br>Schmetterling (Tagfalter) aus der Familie der
+                                                                Edelfalter
+                                                                (Nymphalidae).
+
+                                                                In den Jahren ab etwa 2010 brachen die überwinternden
+                                                                <br>Bestände drastisch ein, die in Anspruch genommene
+                                                                Fläche
+                                                                <br>betrug ebenfalls nur noch einen Bruchteil; 2013/14
+                                                                <br>verzögerte sich die Ankunft der Falter in Mexiko
+                                                                zudem
+                                                                um drei Wochen.
+
+                                                                <br>Eine deutlich kleinere westliche Population
+                                                                überwintert
+                                                                <br>entlang der Pazifikküste in Kalifornien.
+
+                                                                <br>Im Jahr 2022 wurde die wandernde Unterart (Danaus
+                                                                plexippus
+                                                                <br>plexippus) des Monarchfalters als „stark gefährdet“
+                                                                <br>(endangered) in die <a href="bedrohtearten.html"
+                                                                    class="link link-info">Rote Liste</a> gefährdeter
+                                                                Arten
+                                                                <br>aufgenommen.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+
+
+
+                                                <div class="col-md">
+                                                    <div class="card bg-success">
+                                                        <picture>
+                                                            <img class="rounded img-fluid img-card-top w-100"
+                                                                src="assets/pictures/wissen/biene.jpg" alt="biene">
+                                                        </picture>
+                                                        <div class="card-text">
+                                                            <h5 class="card-title fw-bold">Die Honigbiene</h5>
+                                                            <p class="card-text m-2 mb-4 text-truncate">
+                                                                <br>Die Honigbiene ist etwas ganz Besonderes: Sie kann
+                                                                nur
+                                                                im
+                                                                <br>Verband existieren und überleben. Eine einzeln
+                                                                gehaltene
+                                                                <br>Honigbiene wird trotz bester Haltung und Pflege
+                                                                schon
+                                                                nach
+                                                                <br>kurzer Zeit sterben.
+
+                                                                <br><br>Die Honigbiene (Apis mellifera) ist etwas ganz
+                                                                besonderes:
+                                                                <br>Sie kann nur im Verband existieren und überleben.
+                                                                Eine
+                                                                <br>einzeln gehaltene Honigbiene wird trotz bester
+                                                                Haltung
+                                                                und
+                                                                Pflege schon nach kurzer Zeit sterben, denn sie benötigt
+                                                                den
+                                                                sozialen Kontakt mit ihren Artgenossen.
+
+                                                                Honigbienenvölker sind in der Lage, als Volk mit rund
+                                                                20.000
+                                                                Bienen zu überwintern. In dieser Zeit ernähren sie sich
+                                                                von
+                                                                den im Sommer angelegten Honigvorräten (oder von dem
+                                                                anstelle des durch den Imker entnommenen Honigs
+                                                                gefütterten
+                                                                Zuckerwasser). Die Königin bleibt in dieser so genannten
+                                                                Wintertraube stets in der warmen Mitte, denn die Bienen
+                                                                heizen mit ihrer Flugmuskulatur und bewahren das Volk
+                                                                vor
+                                                                dem Erfrieren.
+
+
+
+                                                            </p>
+                                                            <button class="btn btn-danger mb-3" type="button"
+                                                                data-bs-toggle="offcanvas" data-bs-target="#biene">
+                                                                Lesen
+                                                            </button>
+                                                            <div>
+                                                                <picture>
+                                                                    <img src="./assets/pictures/bedrohtearten/navizeiger.png"
+                                                                        alt="zuruckaufdiestartseite" width="100">
+                                                                </picture>
+                                                            </div>
+                                                            <button class="btn btn-danger mb-3" type="button">
+                                                                Zum Video!
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <!--offcanvas-->
+                                                    <div class="offcanvas offcanvas-bottom canvasbodybiene"
+                                                        tabindex="-1" id="biene" aria-labelledby="#biene">
+                                                        <div class="offcanvas-header canvasbody text-center">
+                                                            <h5 class="offcanvas-title fw-bold" id="#biene">Die
+                                                                Honigbiene
+                                                            </h5>
+                                                            <button type="button" class="btn-close text-reset"
+                                                                data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="offcanvas-body small text-white fs-5">
+                                                            <p>
+                                                                <br>Die Honigbiene ist etwas ganz Besonderes: Sie kann
+                                                                nur
+                                                                im
+                                                                <br>Verband existieren und überleben. Eine einzeln
+                                                                gehaltene
+                                                                <br>Honigbiene wird trotz bester Haltung und Pflege
+                                                                schon
+                                                                nach
+                                                                <br>kurzer Zeit sterben.
+
+                                                                <br><br>Die Honigbiene (Apis mellifera) ist etwas ganz
+                                                                besonderes:
+                                                                <br>Sie kann nur im Verband existieren und überleben.
+                                                                Eine
+                                                                <br>einzeln gehaltene Honigbiene wird trotz bester
+                                                                Haltung
+                                                                und
+                                                                <br>Pflege schon nach kurzer Zeit sterben, denn sie
+                                                                benötigt
+                                                                den
+                                                                <br>sozialen Kontakt mit ihren Artgenossen.
+
+                                                                <br>Honigbienenvölker sind in der Lage, als Volk mit
+                                                                rund
+                                                                20.000
+                                                                <br>Bienen zu überwintern. In dieser Zeit ernähren sie
+                                                                sich
+                                                                von
+                                                                <br>den im Sommer angelegten Honigvorräten (oder von dem
+                                                                <br>anstelle des durch den Imker entnommenen Honigs
+                                                                gefütterten
+                                                                <br>Zuckerwasser). Die Königin bleibt in dieser so
+                                                                genannten
+                                                                <br>Wintertraube stets in der warmen Mitte, denn die
+                                                                Bienen
+                                                                <br>heizen mit ihrer Flugmuskulatur und bewahren das
+                                                                Volk
+                                                                vor
+                                                                <br>dem Erfrieren.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--
+                        Atmosphäre card
+                    -->
+                        <div class="card mb-5">
+                            <div class="card-header cardheaderspace rounded text-center">
+                                <a class="collapsed btn w-100 border-0 text-white" data-bs-toggle="collapse"
+                                    href="#collapsefour">
+                                    Erkunde Teile der Natur außerhalb unserer Atmosphäre
+                                </a>
+                                <div id="collapsefour" class="collapse" data-bs-parent="#accordion">
+                                    <div class="card-body">
+                                        <div class="container">
+
+                                            <div class="row">
+                                                <div class="col-md mb-4">
+                                                    <div class="card bg-dark">
+                                                        <picture>
+                                                            <img class="rounded img-fluid img-card-top"
+                                                                src="./assets/pictures/wissen/solarsystem.jpg"
+                                                                alt="sonnensystem">
+                                                        </picture>
+                                                        <div class="card-text">
+                                                            <h5 class="card-title fw-bold text-white">Unser Sonnensystem
+                                                            </h5>
+                                                            <p class="card-text m-2 mb-4 text-white text-truncate">
+
+                                                                Entstanden ist unser Sonnensystem vor etwa 4,6
+                                                                Milliarden
+                                                                <br>Jahren aus einer gigantischen Gas- und Staubwolke
+                                                                (vgl.
+                                                                <br>Podbregar, 2014). Aus einem großen Teil dieser
+                                                                Gaswolke
+                                                                <br>wurde dabei unsere Sonne. Aus dem restlichen,
+                                                                verdichteten
+                                                                <br>Gas, das um die Sonne herum wirbelte und kreiste,
+                                                                entstanden
+                                                                <br>die restlichen Planeten sowie deren Monde.
+                                                            </p>
+                                                            <button class="btn btn-danger mb-3" type="button"
+                                                                data-bs-toggle="offcanvas"
+                                                                data-bs-target="#sonnensystem">
+                                                                Lesen
+                                                            </button>
+                                                            <div>
+                                                                <picture>
+                                                                    <img src="./assets/pictures/bedrohtearten/navizeiger.png"
+                                                                        alt="zuruckaufdiestartseite" width="100">
+                                                                </picture>
+                                                            </div>
+                                                            <button class="btn btn-danger mb-3" type="button">
+                                                                Zum Video!
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <!--offcanvas-->
+                                                    <div class="offcanvas offcanvas-bottom canvasbodysonnensystem"
+                                                        tabindex="-1" id="sonnensystem" aria-labelledby="#sonnensystem">
+                                                        <div class="offcanvas-header canvasbody text-center">
+                                                            <h5 class="offcanvas-title fw-bold text-white"
+                                                                id="#sonnensystem">
+                                                                Unser Sonnensystem
+                                                            </h5>
+                                                            <button type="button" class="btn-close text-reset"
+                                                                data-bs-dismiss="offcanvas" aria-label="Close">
+                                                            </button>
+                                                        </div>
+                                                        <div class="offcanvas-body small text-white fs-5">
+                                                            <p>
+                                                                Entstanden ist unser Sonnensystem vor etwa 4,6
+                                                                Milliarden
+                                                                <br>Jahren aus einer gigantischen Gas- und Staubwolke
+                                                                (vgl.
+                                                                <br>Podbregar, 2014). Aus einem großen Teil dieser
+                                                                Gaswolke
+                                                                <br>wurde dabei unsere Sonne. Aus dem restlichen,
+                                                                verdichteten
+                                                                <br>Gas, das um die Sonne herum wirbelte und kreiste,
+                                                                entstanden
+                                                                <br>die restlichen Planeten sowie deren Monde. Das Gas
+                                                                <br>verdichtete sich dabei durch seine eigene
+                                                                Anziehungskraft
+                                                                <br>und siehe da – Merkur, Venus, Erde, Mars, Jupiter,
+                                                                Saturn,
+                                                                <br>Uranus und Neptun waren geboren.
+
+                                                                <br>Aber auch viele Gesteinsklumpen setzten sich auf
+                                                                diese
+                                                                Weise
+                                                                <br>zusammen. Aus Zusammenstößen von größeren Klumpen
+                                                                entstanden
+                                                                <br>darüber hinaus Asteroiden, Meteoriden sowie Kometen.
+                                                                Einige
+                                                                <br>Planeten unseres Sonnensystems bestehen übrigens wie
+                                                                die
+                                                                <br>Erde aus Metallen und Gesteinsplatten, andere aus
+                                                                Gasen
+                                                                wie
+                                                                <br>beispielsweise der Jupiter.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md">
+                                                    <div class="card bg-dark">
+                                                        <picture>
+                                                            <img class="rounded img-fluid img-card-top"
+                                                                src="./assets/pictures/wissen/quasar.jpg" alt="quasar">
+                                                        </picture>
+                                                        <div class="card-text">
+                                                            <h5 class="card-title fw-bold text-white">Giganten aus dem
+                                                                All,
+                                                                Quasare</h5>
+                                                            <p class="card-text m-2 mb-4 text-truncate text-white">
+                                                                Quasare sind die hellsten Objekte im Universum. Sie
+                                                                strahlen
+                                                                <br>wie Billiarden Sonnen. Allerdings sind sie auch
+                                                                <br>unvorstellbar weit weg, so dass wir sie trotzdem nur
+                                                                mit
+                                                                <br>Spezialteleskopen beobachten können. Quasare sind
+                                                                keine
+                                                                <br>Sterne, sondern nach heutigem Wissen Galaxien mit
+                                                                einem
+                                                                sehr
+                                                                <br>aktiven Zentrum.
+                                                                also
+                                                                ein sternenähnliches Objekt, von dem wir Strahlung im
+                                                                Bereich der Radiowellen auffangen.
+
+                                                                Lange Zeit wusste niemand, woher die viele Energie
+                                                                stammt,
+                                                                die Quasare aussenden. Heute nehmen die Forscher an,
+                                                                dass
+                                                                sie aus einem «supermassiven Schwarzen Loch» im Zentrum
+                                                                des
+                                                                Quasars kommt. Im Zentrum jeder Galaxie gibt es ein
+                                                                Schwarzes Loch. Aber das der Quasare ist extragroß: bis
+                                                                zu
+                                                                fünf Milliarden Sonnenmassen. Das ist mehr als
+                                                                tausendmal
+                                                                massiver als das Schwarze Loch im Zentrum unserer
+                                                                Milchstraße. Vermutlich sind Quasare sehr alt und
+                                                                stammen
+                                                                aus der frühesten Zeit des Universums. Wie sich dermaßen
+                                                                große Schwarze Löcher bilden konnten - darüber streiten
+                                                                die
+                                                                Forscher allerdings noch.
+                                                            </p>
+                                                            <button class="btn btn-danger mb-3" type="button"
+                                                                data-bs-toggle="offcanvas" data-bs-target="#quasar">
+                                                                Lesen
+                                                            </button>
+                                                            <button class="btn btn-danger mb-3" type="button">
+                                                                Zum Video!
+                                                            </button>
+                                                        </div>
+                                                        <div>
+                                                            <picture>
+                                                                <img src="./assets/pictures/bedrohtearten/navizeiger.png"
+                                                                    alt="zuruckaufdiestartseite" width="100">
+                                                            </picture>
+                                                        </div>
+                                                        <a href="quasar.html" class="btn btn-dark text-danger p-1">
+                                                            <p class="fw-bold m-auto">Geheimtipp, Klick hier!</p>
+                                                        </a>
+                                                    </div>
+                                                    <!--offcanvas-->
+                                                    <div class="offcanvas offcanvas-bottom canvasbodyquasar"
+                                                        tabindex="-1" id="quasar" aria-labelledby="#quasar">
+                                                        <div class="offcanvas-header canvasbody text-center">
+                                                            <h5 class="offcanvas-title fw-bold text-white" id="#quasar">
+                                                                Giganten aus dem All,
+                                                                Quasare
+                                                            </h5>
+                                                            <button type="button" class="btn-close text-reset"
+                                                                data-bs-dismiss="offcanvas" aria-label="Close">
+                                                            </button>
+                                                        </div>
+                                                        <div class="offcanvas-body small text-white fs-5">
+                                                            <p>
+                                                                Quasare sind die hellsten Objekte im Universum. Sie
+                                                                strahlen
+                                                                <br>wie Billiarden Sonnen. Allerdings sind sie auch
+                                                                <br>unvorstellbar weit weg, so dass wir sie trotzdem nur
+                                                                mit
+                                                                <br>Spezialteleskopen beobachten können. Quasare sind
+                                                                keine
+                                                                <br>Sterne, sondern nach heutigem Wissen Galaxien mit
+                                                                einem
+                                                                sehr
+                                                                <br>aktiven Zentrum.
+
+                                                                <br>Sie gehören zu den am weitesten entfernten Objekten,
+                                                                die
+                                                                wir
+                                                                <br>noch beobachten können. Typischerweise sind Quasare
+                                                                mehr
+                                                                als
+                                                                <br>fünf Milliarden Lichtjahre von der Erde entfernt.
+                                                                Wegen
+                                                                <br>dieser riesigen Entfernung sehen sie selbst im
+                                                                Fernrohr
+                                                                aus
+                                                                <br>wie ein Sternenpünktchen. Daher kommt auch der Name
+                                                                Quasar:
+                                                                <br>Er ist eine Kurzform von «quasi- stellare
+                                                                Radioquelle»,
+                                                                also
+                                                                <br>ein sternenähnliches Objekt, von dem wir Strahlung
+                                                                im
+                                                                <br>Bereich der Radiowellen auffangen.
+
+                                                                <br>Lange Zeit wusste niemand, woher die viele Energie
+                                                                stammt,
+                                                                <br>die Quasare aussenden. Heute nehmen die Forscher an,
+                                                                dass
+                                                                <br>sie aus einem «supermassiven Schwarzen Loch» im
+                                                                Zentrum
+                                                                des
+                                                                <br>Quasars kommt. Im Zentrum jeder Galaxie gibt es ein
+                                                                <br>Schwarzes Loch. Aber das der Quasare ist extragroß:
+                                                                bis
+                                                                zu
+                                                                <br>fünf Milliarden Sonnenmassen. Das ist mehr als
+                                                                tausendmal
+                                                                <br>massiver als das Schwarze Loch im Zentrum unserer
+                                                                <br>Milchstraße. Vermutlich sind Quasare sehr alt und
+                                                                stammen
+                                                                <br>aus der frühesten Zeit des Universums. Wie sich
+                                                                dermaßen
+                                                                <br>große Schwarze Löcher bilden konnten - darüber
+                                                                streiten
+                                                                die
+                                                                <br>Forscher allerdings noch.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="container-fluid pt-5 pb-3 bg-opacity-75 bg-danger">
+                <div class="row">
+                    <div class="col">
+                        <picture>
+                            <img class="w-75 rounded" src="assets/pictures/neugikeiten/hasespende.png" alt="hasespende">
+                        </picture>
+                    </div>
+                    <div class="col">
+                        <h5 class="card-title fw-bold">Spendenaufruf</h5>
+                        <p class="card-text mt-2 mb-4 text-truncate">
+
+                            Wir unterstützen EuroNatur und andere Projekte zum Schutz bedrohter Arten und wertvoller
+                            <br>Lebensräume in ganz Europa.
+                            <br>Wir glauben an das harmonische Zusammenleben von Schnensch und Natur.
+                            <br>Wir kooperieren über Grenzen hinweg.
+                            <br>Wir unterstützen die Menschen in ihrem Ruf nach Veränderung.
+                            <br>Erfahren Sie mehr!
+
+                        </p>
+                        <a href="#" class="btn btn-success w-50">
+                            Mehr erfahren</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <footer class="footer bg-success">
+            <ul class="nav justify-content-center pt-2">
+                <li class="nav-item"><a href="impressum.html"
+                        class="nav-link px-2 text-dark fw-bold fs-4 text">Impressum</a>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-dark fw-bold fs-4 text">Kontakt</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-dark fw-bold fs-4 text">Hilfe</a></li>
+            </ul>
+            <p class="text-center text-dark fw-bold fs-4 text pb-2 mt-2">© 2022 Natur hautnah, Inc</p>
+        </footer>
+    </div>
+</body>
+
+</html>

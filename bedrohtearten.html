@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <title>Natur hautnah</title>
+
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="utf-8">
+
+  <link rel="shortcut icon" href="#">
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/modifications/bedrohtearten.css" />
+
+</head>
+
+<body>
+
+  <div id="backgroundindex">
+
+    <header>
+      <div class="container text-center py-2">
+        <img src="./assets/pictures/index/hslogo.png" class="img-fluid hslogo" alt="Hochschule Osnabrück Logo">
+      </div>
+    </header>
+
+    <nav class="navbar navbarimg mt-3 mb-5 pb-5">
+      <div class="container-fluid justify-content-center m-auto navbar-expand-lg">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/pictures/index/navsymbol.png" alt="navbarimage" class="d-inline-block navbarimage">
+          <p class="navsymboltext text-success fw-bold">Natur hautnah</p>
+        </a>
+        <ul class="nav justify-content-center ">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link link-success active text-dark fw-bold fs-6 text startseite"
+              aria-current="page">Startseite</a>
+          </li>
+          <li class="nav-item">
+            <a href="reisen.html" class="nav-link link-success active text-dark fw-bold fs-6 text naturerleben"
+              aria-current="page">Natur erleben</a>
+          </li>
+          <li class="nav-item">
+            <a href="wissen.html" class="nav-link link-success active text-dark fw-bold fs-6 text wissen"
+              aria-current="page">Wissen</a>
+          </li>
+          <li class="nav-item">
+            <a href="neuigkeiten.html" class="nav-link link-success active text-dark fw-bold fs-6 text neuigkeiten"
+              aria-current="page">Neuigkeiten</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- https://getbootstrap.com/docs/5.0/components/breadcrumb/ -->
+    <div class="container-fluid pt-5">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb fs-4 justify-content-center">
+          <li class="breadcrumb-item"><a class="text-success fs-5 fw-bold" href="index.html">Startseite</a></li>
+          <li class="breadcrumb-item"><a class="text-success fs-5 fw-bold" href="neuigkeiten.html">Neuigkeiten</a></li>
+          <li class="breadcrumb-item active" aria-current="page">
+            <a class="text-danger fs-5 fw-bold" href="bedrohtearten.html">Rote Liste
+              <div class="zuruckaufdiestartseite">
+                <picture>
+                  <img src="./assets/pictures/bedrohtearten/navizeiger.png" alt="zuruckaufdiestartseite" width="100">
+                </picture>
+              </div>
+            </a>
+          </li>
+        </ol>
+      </nav>
+    </div>
+
+
+
+
+    <article>
+
+<!-- https://getbootstrap.com/docs/5.0/content/tables/-->
+<!-- https://getbootstrap.com/docs/5.0/components/button-group/ -->
+<!-- https://getbootstrap.com/docs/5.0/forms/checks-radios/-->
+      <!--Buttons für Tables der roten Liste-->
+      <div class="container-fluid bg-danger bg-opacity-75 rounded p-5 containerfuerrotelistebuttons1 row-md">
+
+        <div class="container-fluid-start bg-success bg-opacity-75 rounded w-75 containerfuerrotelistebuttons2">
+          <div class="btn-group-vertical" role="group" aria-label="Basic checkbox toggle button group">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <p class="h4 text-danger">Rote Liste der Tiere und Pflanzen von A-Z</p>
+              </li>
+              <li class="nav-item">
+                <input type="checkbox" class="btn-check" id="btncheck1" data-bs-toggle="collapse"
+                  data-bs-target="#collapseA">
+                <label class="btn btn-outline-success btn-danger text-white" for="btncheck1">
+                  Alle Tiere und Pflanzen mit dem Buchstaben <b class="fs-4">A</b>
+                </label>
+              </li>
+              <li class="nav-item">
+                <input type="checkbox" class="btn-check" id="btncheck2" data-bs-toggle="collapse"
+                  data-bs-target="#collapseB">
+                <label class="btn btn-outline-success btn-danger text-white" for="btncheck2">
+                  Alle Tiere und Pflanzen mit dem Buchstaben <b class="fs-4">B</b>
+                </label>
+              </li>
+              <li class="nav-item">
+                <input type="checkbox" class="btn-check" id="btncheck3" data-bs-toggle="collapse"
+                  data-bs-target="#collapseC">
+                <label class="btn btn-outline-success btn-danger text-white" for="btncheck3">
+                  Alle Tiere und Pflanzen mit dem Buchstaben <b class="fs-4">C</b>
+                </label>
+              </li>
+              <li class="nav-item">
+                <input type="checkbox" class="btn-check" id="btncheck4" data-bs-toggle="collapse"
+                  data-bs-target="#collapseD">
+                <label class="btn btn-outline-success btn-danger text-white" for="btncheck4">
+                  Alle Tiere und Pflanzen mit dem Buchstaben <b class="fs-4">D</b>
+                </label>
+              </li>
+              <li class="nav-item">
+                <input type="checkbox" class="btn-check" id="btncheck5" data-bs-toggle="collapse"
+                  data-bs-target="#collapseE">
+                <label class="btn btn-outline-success btn-danger text-white" for="btncheck5">
+                  Alle Tiere und Pflanzen mit dem Buchstaben <b class="fs-4">E</b>
+                </label>
+              </li>
+              <li class="nav-item">
+                <input type="checkbox" class="btn-check" id="btncheck6" data-bs-toggle="collapse"
+                  data-bs-target="#collapseJ">
+                <label class="btn btn-outline-success btn-danger text-white" for="btncheck6">
+                  Alle Tiere und Pflanzen mit dem Buchstaben <b class="fs-4">J</b>
+                </label>
+              </li>
+              <li class="nav-item">
+                <input type="checkbox" class="btn-check" id="btncheck7" data-bs-toggle="collapse"
+                  data-bs-target="#collapseO">
+                <label class="btn btn-outline-success btn-danger text-white" for="btncheck7">
+                  Alle Tiere und Pflanzen mit dem Buchstaben <b class="fs-4">O</b>
+                </label>
+              </li>
+              <li class="nav-item">
+                <input type="checkbox" class="btn-check" id="btncheck8" data-bs-toggle="collapse"
+                  data-bs-target="#collapseZ">
+                <label class="btn btn-outline-success btn-danger text-white" for="btncheck8">
+                  Alle Tiere und Pflanzen mit dem Buchstaben <b class="fs-4">Z</b>
+                </label>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!--
+        collapsed table A
+      -->
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example"
+        tabindex="0">
+        <div class="collapse" id="collapseA">
+          <table class="table bg-dark bg-opacity-75 m-0 p-0">
+            <thead>
+              <tr>
+                <th class="border-0 h2 text-success" scope="col" id="scrollspyHeading1"><em>Buchstabe A</em></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="border-0 text-success">
+                  <figure>
+                    <img src="./assets/pictures/bedrohtearten/platzhalter.png" class="img-thumbnail w-50 rounded"
+                      alt="platzhalter">
+                  </figure>
+                  <h3 class="text-success">Lorem ipsum</h3>
+                <p class=" text-success">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                    eirmod
+                    tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua.
+                    </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!--
+        collapsed table B
+      -->
+        <div class="collapse" id="collapseB">
+          <table class="table bg-dark bg-opacity-75 m-0 p-0">
+            <thead>
+              <tr>
+                <th class="border-0 h2 text-success" scope="col"><em>Buchstabe B</em></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="border-0">
+                  <figure>
+                    <img src="./assets/pictures/bedrohtearten/platzhalter.png" class="img-thumbnail w-50 rounded"
+                      alt="platzhalter">
+                  </figure>
+                  <h3 class="text-success">Lorem ipsum</h3>
+                <p class=" text-success">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                    eirmod
+                    tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua.
+                    </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!--
+        collapsed table C
+      -->
+        <div class="collapse" id="collapseC">
+          <table class="table bg-dark bg-opacity-75 m-0 p-0">
+            <thead>
+              <tr>
+                <th class="border-0 h2 text-success" scope="col"><em>Buchstabe C</em></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="border-0">
+                  <figure>
+                    <img src="./assets/pictures/bedrohtearten/platzhalter.png" class="img-thumbnail w-50 rounded"
+                      alt="platzhalter">
+                  </figure>
+                  <h3 class="text-success">Lorem ipsum</h3>
+                <p class=" text-success">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                    eirmod
+                    tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua.
+                    </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!--
+        collapsed table D
+      -->
+        <div class="collapse" id="collapseD">
+          <table class="table bg-dark bg-opacity-75 m-0 p-0">
+            <thead>
+              <tr>
+                <th class="border-0 h2 text-success" scope="col">
+                  <em>
+                    Buchstabe D
+                  </em>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="border-0">
+                  <figure>
+                    <img src="./assets/pictures/bedrohtearten/platzhalter.png" class="img-thumbnail w-50 rounded"
+                      alt="platzhalter">
+                  </figure>
+                  <h3 class="text-success">Lorem ipsum</h3>
+                <p class=" text-success">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                    eirmod
+                    tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua.
+                    </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!--
+        collapsed table E
+      -->
+        <div class="collapse" id="collapseE">
+          <table class="table bg-dark bg-opacity-75 m-0 p-0">
+            <thead>
+              <tr>
+                <th class="border-0 h2 text-success" scope="col"><em>Buchstabe E</em></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="border-0">
+                  <figure>
+                    <img src="./assets/pictures/bedrohtearten/platzhalter.png" class="img-thumbnail w-50 rounded"
+                      alt="platzhalter">
+                  </figure>
+                  <h3 class="text-success">Lorem ipsum</h3>
+                <p class=" text-success">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                    eirmod
+                    tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!--
+        collapsed table J
+      -->
+        <div class="collapse" id="collapseJ">
+          <table class="table bg-dark bg-opacity-75 m-0 p-0">
+            <thead>
+              <tr>
+                <th class="border-0 h2 text-success" scope="col"><em>Buchstabe J</em></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="border-0">
+                  <figure>
+                    <img src="./assets/pictures/bedrohtearten/platzhalter.png" class="img-thumbnail w-50 rounded"
+                      alt="platzhalter">
+                  </figure>
+                  <h3 class="text-success">Lorem ipsum</h3>
+                <p class=" text-success">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                    eirmod
+                    tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!--
+        collapsed table O
+      -->
+        <div class="collapse" id="collapseO">
+          <table class="table bg-dark bg-opacity-75 m-0 p-0">
+            <thead>
+              <tr>
+                <th class="border-0 h2 text-success" scope="col"><em>Buchstabe O</em></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="border-0">
+                  <figure>
+                    <img src="./assets/pictures/bedrohtearten/platzhalter.png" class="img-thumbnail w-50 rounded"
+                      alt="platzhalter">
+                  </figure>
+                  <h3 class="text-success">Lorem ipsum</h3>
+                <p class=" text-success">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                    eirmod
+                    tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!--
+        collapsed table Z
+      -->
+        <div class="collapse" id="collapseZ">
+          <table class="table bg-dark bg-opacity-75 m-0 p-0">
+            <thead>
+              <tr>
+                <th class="border-0 h2 text-success" scope="col"><em>Buchstabe Z</em></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="border-0">
+                  <figure>
+                    <img src="./assets/pictures/bedrohtearten/platzhalter.png" class="img-thumbnail w-50 rounded"
+                      alt="platzhalter">
+                  </figure>
+                  <h3 class="text-success">Lorem ipsum</h3>
+                <p class=" text-success">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                    eirmod
+                    tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua.
+                    </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </article>
+
+  </div>
+  <footer class="footer bg-success">
+    <ul class="nav justify-content-center pt-2">
+      <li class="nav-item"><a href="impressum.html" class="nav-link px-2 text-dark fw-bold fs-4 text">Impressum</a>
+      </li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-dark fw-bold fs-4 text">Kontakt</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-dark fw-bold fs-4 text">Hilfe</a></li>
+    </ul>
+    <ul class="nav justify-content-center">
+      <li>
+        <p class="text-dark fw-bold fs-4 text pb-2 mt-2">© 2022 Natur hautnah, Inc</p>
+      </li>
+    </ul>
+  </footer>
+  <script src="./js/bootstrap/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
